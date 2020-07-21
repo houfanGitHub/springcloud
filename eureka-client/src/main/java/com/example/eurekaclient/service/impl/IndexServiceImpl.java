@@ -8,6 +8,7 @@ public class IndexServiceImpl implements IndexService {
 
     @Override
     public String getMesasge() {
-        return "hello springcloud 8762";
+        int number = 1/0;
+        return "hello springcloud 8763";
     }
 }

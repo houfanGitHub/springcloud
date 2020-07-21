@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spingboot" />
+        <module name="feign-client" />
         <module name="eureka-client" />
         <module name="eureka-server" />
         <module name="ribbon-client" />
+        <module name="turbine-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
