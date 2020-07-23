@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/ribbon-client/pom.xml" />
         <option value="$PROJECT_DIR$/feign-client/pom.xml" />
         <option value="$PROJECT_DIR$/turbine-client/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

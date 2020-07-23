@@ -10,6 +10,7 @@
         <module name="feign-client" />
         <module name="eureka-client" />
         <module name="eureka-server" />
+        <module name="zuul-service" />
         <module name="ribbon-client" />
         <module name="turbine-client" />
       </profile>
