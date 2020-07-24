@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gateway-service
+  profiles:
+    active: add_request_header_route

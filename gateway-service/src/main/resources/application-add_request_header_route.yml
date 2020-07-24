@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: add_request_header_route
+          uri: https://httpbin.org/
+          predicates:
+            - After=2017-01-20T17:42:47.789-07:00[America/Denver]
+          filters:
+            - AddRequestHeader=X-Request-red, blue

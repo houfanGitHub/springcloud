@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: cookie_route
+          uri: https://httpbin.org/
+          predicates:
+            - name: Cookie
+              args:
+                name: mycookie
+                regexp: mycookievalue
