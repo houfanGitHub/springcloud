@@ -9,7 +9,9 @@
         <module name="spingboot" />
         <module name="feign-client" />
         <module name="eureka-client" />
+        <module name="gateway-service" />
         <module name="eureka-server" />
+        <module name="config-server" />
         <module name="zuul-service" />
         <module name="ribbon-client" />
         <module name="turbine-client" />
